@@ -78,6 +78,7 @@ $include-html-global-classes: $include-html-classes;
 
 body {
 	overflow-x: hidden !important;
+	max-width: 100vw;
 }
 
 // $include-html-grid-classes: $include-html-classes;
@@ -1819,8 +1820,8 @@ p {
 
 .about-main-content {
 	.row#with_padding {
-		margin-left: 2% !important;
-		margin-right: 2% !important;
+		margin-left: 4% !important;
+		margin-right: 4% !important;
 	}
 	h1.section-header {
 		border: thin solid $primary-color;
@@ -1844,3 +1845,35 @@ p {
 	}
 }
 
+
+.research-main-content {
+	.row#parallax-otherpage {
+		.text-overlay {
+			margin-top:10%;
+		}
+	}
+	.row#with_padding {
+		margin-left: 4% !important;
+		margin-right: 4% !important;
+	}
+	h1.section-header {
+		border: thin solid $primary-color;
+		display: inline;
+		padding: 10px;
+	}
+	p.paddingtop{
+		padding-top: 40px;
+	}
+
+	h3.subheader{
+		padding-top: 40px;
+		font-weight: normal;
+	}
+	section {
+		padding-top: 80px;
+		padding-bottom: 20px;
+	}
+	p {
+		text-align: justify !important;
+	}
+}
