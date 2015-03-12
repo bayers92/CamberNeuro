@@ -76,6 +76,10 @@ $include-html-global-classes: $include-html-classes;
 // b. Grid
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
+body {
+	overflow-x: hidden !important;
+}
+
 // $include-html-grid-classes: $include-html-classes;
 // $include-xl-html-grid-classes: false;
 
@@ -94,8 +98,8 @@ $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
-$font-weight-normal: normal;
-$font-weight-bold: bold;
+$font-weight-normal: 100;
+$font-weight-bold: normal;
 
 $white       : #FFFFFF;
 $ghost       : #FAFAFA;
@@ -139,7 +143,7 @@ $body-bg: $white;
 $body-font-color: $jet;
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: $font-weight-normal;
-$body-font-style: normal;
+$body-font-style: 100;
 
 // We use this to control font-smoothing
 // $font-smoothing: antialiased;
@@ -1517,7 +1521,7 @@ $topbar-menu-icon-color: $primary-color;
         li a:not(.button), li.active a:not(.button) {
             background: none;
             line-height: 30px;
-            font-size: 12px;
+            font-size: 14px;
             padding: 0;
             margin: 5px 0 0 0;
             text-transform: uppercase;
@@ -1727,7 +1731,7 @@ p {
 
 // 																HEADER IMAGES
 .row#parallax-homepage {
-	min-height: 450px;
+	min-height: 550px;
 	.full-width-photos {
 		min-width: 100% !important;
 		top: 0;
@@ -1753,12 +1757,15 @@ p {
 		}
 		#left-side{
 			border-right: solid thin white;
-			h1{
+			h1 {
 				font-weight: 100;
 			}
 		}
 		#right-side {
 			padding-top:5%;
+			h1 {
+				font-weight: bold;
+			}
 		}
 	}
 }
