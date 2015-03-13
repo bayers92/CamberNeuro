@@ -1642,7 +1642,12 @@ p {
 // 																MOBILE QUERY FOR TOP NAV
 @media #{$small-only} {
 
+	body {
+		overflow-x: hidden;
+	}
 	.top-bar {
+		max-width: 100vw;
+		overflow-x: hidden;
 		margin-top: 0;
 		padding: 0;
 		float: none;
@@ -1816,7 +1821,7 @@ p {
 		p#skinny {
 			width:60%;
 			margin-left: auto;
-		  	margin-right: auto;
+			margin-right: auto;
 		}
 	}
 }
@@ -1957,5 +1962,40 @@ p {
 	}
 	p {
 		text-align: justify !important;
+	}
+}
+
+.row .row {
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+@media #{$small-only} {
+	.row#parallax-homepage {
+		min-height: 460px;
+		.full-width-photos {
+			min-width: 100% !important;
+			top: 0;
+			left: 0;
+			float: left;
+			z-index: -1;
+			position: absolute;
+			.header-pic {
+				min-width: 100%;
+				max-height: 500px;
+				overflow: hidden;
+				-webkit-filter: blur(5px) brightness(75%);
+				-moz-filter: blur(5px) brightness(75%);
+				-o-filter: blur(5px) brightness(75%);
+				-ms-filter: blur(5px) brightness(75%);
+				filter: blur(5px) brightness(75%);
+			}
+		}
+	}
+	.main-content .row {
+		padding-bottom: 40px !important;
+	}
+	.quote {
+		padding-bottom: 20px;
 	}
 }
