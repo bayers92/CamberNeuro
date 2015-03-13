@@ -12,6 +12,8 @@ jQuery(document).ready(function($){
 
 			$(".important-class").addClass("padding-on-my-header");
 
+			$(".important-class").css("background-color","white");
+
 		}
 
 		if (scroll < 50) {
@@ -19,6 +21,7 @@ jQuery(document).ready(function($){
 			$(".important-class").removeClass("padding-on-my-header");
 
 			$('#logo-image').attr('src', 'img/Camber_Logo.png')
+
 		}
 
 	}).resize(function(){

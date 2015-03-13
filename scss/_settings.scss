@@ -1553,7 +1553,7 @@ $topbar-menu-icon-color: $primary-color;
     	color: #333;
     }
     .top-bar-section li ul.dropdown {
-    	background: #fff;
+    	background: none;
     	border: 1px solid #ddd;
     	color: #888;
     	li {
@@ -1597,7 +1597,7 @@ $topbar-menu-icon-color: $primary-color;
 
 // FILL USED FOR HEADER
 .header-fill {
-	background: #fff;
+	background: none !important;
 	height: 135px;
 	.tablet-mobile-logo img {
 		padding-top: 30px;
@@ -1840,6 +1840,9 @@ p {
 		padding-top: 80px;
 		padding-bottom: 20px;
 	}
+	section.first{
+		padding-top: 0px !important;
+	}
 	p {
 		text-align: justify !important;
 	}
@@ -1873,7 +1876,50 @@ p {
 		padding-top: 80px;
 		padding-bottom: 20px;
 	}
+	section.first{
+		padding-top: 0px !important;
+	}
 	p {
 		text-align: justify !important;
+	}
+}
+
+.news-main-content {
+	.row#with_padding {
+		margin-left: 4% !important;
+		margin-right: 4% !important;
+	}
+	h1.section-header {
+		border: thin solid $primary-color;
+		display: inline;
+		padding: 10px;
+	}
+	p.paddingtop{
+		padding-top: 40px;
+		text-align: center;
+	}
+
+	h3.subheader{
+		padding-top: 40px;
+		font-weight: normal;
+	}
+	section {
+		padding-top: 80px;
+		padding-bottom: 20px;
+	}
+	section.first{
+		padding-top: 0px !important;
+	}
+	p {
+
+	}
+	h3.subheader {
+		margin-top: 60px;
+	}
+	ul {
+		li {
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
 	}
 }
