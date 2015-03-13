@@ -2060,26 +2060,24 @@ p {
 		}
 		h1.section-header {
 			border: 2px solid $primary-color;
-			display: inline;
-			padding: 10px;
 		}
-		p.paddingtop{
-			padding-top: 40px;
+	}
+	.research-main-content {
+		.row#with_padding {
+			margin-left: 1% !important;
+			margin-right: 1% !important;
 		}
-
-		h3.subheader{
-			padding-top: 40px;
-			font-weight: normal;
+		h1.section-header {
+			border: none;
 		}
-		section {
-			padding-top: 80px;
-			padding-bottom: 20px;
+	}
+	.news-main-content {
+		.row#with_padding {
+			margin-left: 1% !important;
+			margin-right: 1% !important;
 		}
-		section.first{
-			padding-top: 0px !important;
-		}
-		p {
-			text-align: justify !important;
+		h1.section-header {
+			border: 2px solid $primary-color;
 		}
 	}
 }
