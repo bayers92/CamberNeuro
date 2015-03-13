@@ -2061,7 +2061,7 @@ p {
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: 2px solid $primary-color;
+			border: none;
 		}
 	}
 	.research-main-content {
@@ -2084,7 +2084,7 @@ p {
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: 2px solid $primary-color;
+			border: none;
 		}
 		.row#parallax-otherpage {
 			.text-overlay{
@@ -2098,16 +2098,11 @@ p {
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: 2px solid $primary-color;
+			border: none;
 		}
 	}
 }
 
-
-.hideme2
-{
-    opacity:0;
-}
 .hideme
 {
     opacity:0;
