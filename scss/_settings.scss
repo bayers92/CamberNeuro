@@ -1970,6 +1970,21 @@ p {
 	margin-right: 0px !important;
 }
 
+
+
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------- MOBILE STYLING!!
 @media #{$small-only} {
 	.row#parallax-homepage {
 		min-height: 460px;
@@ -1997,5 +2012,74 @@ p {
 	}
 	.quote {
 		padding-bottom: 20px;
+	}
+
+	.row#parallax-otherpage {
+		min-height: 450px;
+		.full-width-photos {
+			min-width: 100% !important;
+			top: 0;
+			left: 0;
+			float: left;
+			z-index: -1;
+			position: absolute;
+			.header-pic {
+				min-width: 100%;
+				max-height: 400px;
+				overflow: hidden;
+				-webkit-filter: blur(5px) brightness(75%);
+				-moz-filter: blur(5px) brightness(75%);
+				-o-filter: blur(5px) brightness(75%);
+				-ms-filter: blur(5px) brightness(75%);
+				filter: blur(5px) brightness(75%);
+			}
+		}
+		.text-overlay {
+			margin-top: 15%;
+			h1 {
+				color: white;
+			}
+			#left-side{
+				border-right: solid thin white;
+				h1 {
+					font-weight: 100;
+				}
+			}
+			#right-side {
+				padding-top:5%;
+				h1 {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	.about-main-content {
+		.row#with_padding {
+			margin-left: 1% !important;
+			margin-right: 1% !important;
+		}
+		h1.section-header {
+			border: 2px solid $primary-color;
+			display: inline;
+			padding: 10px;
+		}
+		p.paddingtop{
+			padding-top: 40px;
+		}
+
+		h3.subheader{
+			padding-top: 40px;
+			font-weight: normal;
+		}
+		section {
+			padding-top: 80px;
+			padding-bottom: 20px;
+		}
+		section.first{
+			padding-top: 0px !important;
+		}
+		p {
+			text-align: justify !important;
+		}
 	}
 }
