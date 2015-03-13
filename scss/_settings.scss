@@ -1815,10 +1815,10 @@ p {
 	.row {
 		padding-bottom: 70px !important;
 	}
-	#blurb {
+	.blurb {
 		padding-bottom: 70px !important;
 		text-align: center;
-		p#skinny {
+		p.skinny {
 			width:60%;
 			margin-left: auto;
 			margin-right: auto;
@@ -1830,7 +1830,7 @@ p {
 // 																ABOUT PAGE
 
 .about-main-content {
-	.row#with_padding {
+	.row.with_padding {
 		margin-left: 4% !important;
 		margin-right: 4% !important;
 	}
@@ -1866,7 +1866,7 @@ p {
 			margin-top:10%;
 		}
 	}
-	.row#with_padding {
+	.row.with_padding {
 		margin-left: 4% !important;
 		margin-right: 4% !important;
 	}
@@ -1896,7 +1896,7 @@ p {
 }
 
 .news-main-content {
-	.row#with_padding {
+	.row.with_padding {
 		margin-left: 4% !important;
 		margin-right: 4% !important;
 	}
@@ -1936,7 +1936,7 @@ p {
 }
 
 .contact-main-content {
-	.row#with_padding {
+	.row.with_padding {
 		margin-left: 4% !important;
 		margin-right: 4% !important;
 	}
@@ -1986,8 +1986,12 @@ p {
 // --------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------- MOBILE STYLING!!
 @media #{$small-only} {
+	h1 {
+		font-size: 95% !important;
+	}
+
 	.row#parallax-homepage {
-		min-height: 460px;
+		min-height: 200px;
 		.full-width-photos {
 			min-width: 100% !important;
 			top: 0;
@@ -1997,7 +2001,7 @@ p {
 			position: absolute;
 			.header-pic {
 				min-width: 100%;
-				max-height: 500px;
+				max-height: 300px;
 				overflow: hidden;
 				-webkit-filter: blur(5px) brightness(75%);
 				-moz-filter: blur(5px) brightness(75%);
@@ -2015,10 +2019,10 @@ p {
 	}
 
 	.row#parallax-otherpage {
-		min-height: 450px;
+		min-height: 300px;
 		.full-width-photos {
 			min-width: 100% !important;
-			min-height: 400px;
+			min-height: 300px;
 			top: 0;
 			left: 0;
 			float: left;
@@ -2026,8 +2030,7 @@ p {
 			position: absolute;
 			.header-pic {
 				min-width: 100%;
-				max-height: 400px;
-				min-height: 400px;
+				max-height: 300px;
 				overflow: hidden;
 				-webkit-filter: blur(5px) brightness(75%);
 				-moz-filter: blur(5px) brightness(75%);
@@ -2042,7 +2045,7 @@ p {
 				color: white;
 			}
 			#left-side{
-				border-right: solid thin white;
+				border-right: none;
 				h1 {
 					font-weight: 100;
 				}
@@ -2056,21 +2059,21 @@ p {
 		}
 	}
 	.about-main-content {
-		.row#with_padding {
+		.row.with_padding {
 			margin-left: 1% !important;
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: none;
+			border: thin solid $primary-color;
 		}
 	}
 	.research-main-content {
-		.row#with_padding {
+		.row.with_padding {
 			margin-left: 1% !important;
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: none;
+			border: thin solid $primary-color;
 		}
 		.row#parallax-otherpage {
 			.text-overlay{
@@ -2079,12 +2082,12 @@ p {
 		}
 	}
 	.news-main-content {
-		.row#with_padding {
+		.row.with_padding {
 			margin-left: 1% !important;
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: none;
+			border: thin solid $primary-color;
 		}
 		.row#parallax-otherpage {
 			.text-overlay{
@@ -2093,12 +2096,12 @@ p {
 		}
 	}
 	.contact-main-content {
-		.row#with_padding {
+		.row.with_padding {
 			margin-left: 1% !important;
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: none;
+			border: thin solid $primary-color;
 		}
 	}
 }
