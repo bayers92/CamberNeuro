@@ -55,11 +55,11 @@
 						</ul>
 					</li>
 					<li class ="has-dropdown">
-						<a href="work.html"> Work at CNT </a>
+						<a href="contact.html"> Work at CNT </a>
 						<ul class = "dropdown">
-							<li> <a href="work.html#culture"> Culture </a> </li>
-							<li> <a href="work.html#positions_available"> Positions Available </a> </li>
-							<li> <a href="work.html#contact"> Contact Us </a></li>
+							<li> <a href="contact.html#culture"> Culture </a> </li>
+							<li> <a href="contact.html#positions_available"> Positions Available </a> </li>
+							<li> <a href="contact.html#contact"> Contact Us </a></li>
 						</li>
 					</ul>
 				</ul>
@@ -141,13 +141,50 @@
 							Contact Us
 						</h1> 
 					</div>
-					<div class ="small-12 columns text-left" id="info">
+					<p class ="paddingtop">
+					</p>
+					<div class ="small-12 medium-10 small-centered columns text-left" id="info">
 						<p class ="paddingtop">
-							Contact form
 						</p>
+						<div class = "panel">
+							<form method="POST" name="contactform" action="contact-form-handler.php">
+								<div class="row">
+									<div class="small-12 medium-offset-2 medium-4 columns">
+										<input type="text" name="name" placeholder="Name (required)" />
+									</div>
+									<div class="small-12 medium-4 columns end">
+										<input type="text" name="email" placeholder="Email (required)" />
+									</div>
+								</div>
+								<div class ="row">
+									<div class="small-12 medium-offset-2 medium-8 small-centered columns end">
+										<input type="text" name="subject" placeholder="Subject.." />
+									</div>
+								</div>
+								<div class = "row">
+									<div class="small-12 medium-offset-2 medium-8 small-centered columns end">
+										<textarea name="message"  rows="10" placeholder="Message.."></textarea>
+									</div>
+								</div>
+								<div class ="row">
+									<div class ="small-12 small-centered columns text-center">
+										<input class="button small large-6" type="submit" value = "Send Message" />
+									</div>
+								</div>
+
+
+								<script language="JavaScript">
+								var frmvalidator  = new Validator("contactform");
+								frmvalidator.addValidation("name","req","Please provide your name"); 
+								frmvalidator.addValidation("email","req","Please provide your email"); 
+								frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+								</script>
+							</form>
+						</div>
 					</div>
 				</section>
 			</div>
+
 
 
 		</div>
