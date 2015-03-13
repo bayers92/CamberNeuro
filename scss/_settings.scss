@@ -1923,3 +1923,33 @@ p {
 		}
 	}
 }
+
+.contact-main-content {
+	.row#with_padding {
+		margin-left: 4% !important;
+		margin-right: 4% !important;
+	}
+	h1.section-header {
+		border: thin solid $primary-color;
+		display: inline;
+		padding: 10px;
+	}
+	p.paddingtop{
+		padding-top: 40px;
+	}
+
+	h3.subheader{
+		padding-top: 40px;
+		font-weight: normal;
+	}
+	section {
+		padding-top: 80px;
+		padding-bottom: 20px;
+	}
+	section.first{
+		padding-top: 0px !important;
+	}
+	p {
+		text-align: justify !important;
+	}
+}
