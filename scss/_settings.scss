@@ -1637,6 +1637,12 @@ p {
    		color: #fff;
    		margin-top: 50px;
    	}
+   	a {
+   		color: $white;
+   		&:hover{
+   			color: $my_green;
+   		}
+   	}
    }
 
 // 																MOBILE QUERY FOR TOP NAV
@@ -1741,11 +1747,11 @@ p {
 			min-width: 100%;
 			max-height: 650px;
 			overflow: hidden;
-			-webkit-filter: blur(5px) brightness(75%);
-			-moz-filter: blur(5px) brightness(75%);
-			-o-filter: blur(5px) brightness(75%);
-			-ms-filter: blur(5px) brightness(75%);
-			filter: blur(5px) brightness(75%);
+			-webkit-filter: blur(3px) brightness(75%);
+			-moz-filter: blur(3px) brightness(75%);
+			-o-filter: blur(3px) brightness(75%);
+			-ms-filter: blur(3px) brightness(75%);
+			filter: blur(3px) brightness(75%);
 		}
 	}
 	.text-overlay {
@@ -1892,6 +1898,9 @@ p {
 	}
 	p {
 		text-align: justify !important;
+	}
+	p.text-center {
+		text-align: center !important;
 	}
 }
 
@@ -2064,7 +2073,7 @@ p {
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: thin solid $primary-color;
+			border: solid $primary-color;
 		}
 	}
 	.research-main-content {
@@ -2073,7 +2082,7 @@ p {
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: thin solid $primary-color;
+			border: solid $primary-color;
 		}
 		.row#parallax-otherpage {
 			.text-overlay{
@@ -2087,7 +2096,7 @@ p {
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: thin solid $primary-color;
+			border: solid $primary-color;
 		}
 		.row#parallax-otherpage {
 			.text-overlay{
@@ -2101,7 +2110,7 @@ p {
 			margin-right: 1% !important;
 		}
 		h1.section-header {
-			border: thin solid $primary-color;
+			border: solid $primary-color;
 		}
 	}
 }
