@@ -1819,16 +1819,21 @@ p {
 
 .main-content{
 	.row {
-		padding-bottom: 70px !important;
+		padding-bottom: 35px !important;
+		padding-top: 35px !important;
 	}
 	.blurb {
-		padding-bottom: 70px !important;
+		padding-bottom: 30px !important;
+		padding-top: 30px !important;
 		text-align: center;
 		p.skinny {
 			width:60%;
 			margin-left: auto;
 			margin-right: auto;
 		}
+	}
+	.row#big-three {
+		background-color: $smoke;
 	}
 }
 
