@@ -1632,10 +1632,10 @@ p {
 
    .footer-section {
    	background: $primary-color;
-   	min-height: 100px;
+   	min-height: 50px;
    	p {
    		color: #fff;
-   		margin-top: 50px;
+   		margin-top: 10px;
    	}
    	a {
    		color: $white;
@@ -1771,6 +1771,12 @@ p {
 				font-weight: bold;
 			}
 		}
+	}
+}
+
+.funding-icon {
+	i {
+		color: $secondary-color;
 	}
 }
 
