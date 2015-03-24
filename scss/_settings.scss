@@ -1639,6 +1639,7 @@ p {
    	}
    	a {
    		color: $white;
+   		border-bottom: solid thin white;
    		&:hover{
    			color: $my_green;
    		}
