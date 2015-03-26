@@ -63,7 +63,7 @@ $rem-base: 18px;
 // Since the typical default browser font-size is 16px, that makes the calculation for grid size.
 // If you want your base font-size to be different and not have it affect the grid breakpoints,
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
-$base-font-size: 125%;
+$base-font-size: 135%;
 
 // The $base-font-size is 100% while $base-line-height is 150%
 $base-line-height: 175%;
@@ -1494,7 +1494,10 @@ $topbar-menu-icon-color: $primary-color;
 	max-width: none !important;
 }
 
-
+.row.with_padding {
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+}
 
 
 // 																CUSTOM TOP BAR 
@@ -1849,8 +1852,8 @@ p {
 
 .about-main-content {
 	.row.with_padding {
-		margin-left: 4% !important;
-		margin-right: 4% !important;
+		// margin-left: 4% !important;
+		// margin-right: 4% !important;
 	}
 	h1.section-header {
 		border: thin solid $primary-color;
@@ -1885,8 +1888,8 @@ p {
 		}
 	}
 	.row.with_padding {
-		margin-left: 4% !important;
-		margin-right: 4% !important;
+		// margin-left: 4% !important;
+		// margin-right: 4% !important;
 	}
 	h1.section-header {
 		border: thin solid $primary-color;
@@ -1918,8 +1921,8 @@ p {
 
 .news-main-content {
 	.row.with_padding {
-		margin-left: 4% !important;
-		margin-right: 4% !important;
+		// margin-left: 4% !important;
+		// margin-right: 4% !important;
 	}
 	h1.section-header {
 		border: thin solid $primary-color;
@@ -1958,8 +1961,8 @@ p {
 
 .contact-main-content {
 	.row.with_padding {
-		margin-left: 4% !important;
-		margin-right: 4% !important;
+		// margin-left: 4% !important;
+		// margin-right: 4% !important;
 	}
 	h1.section-header {
 		border: thin solid $primary-color;
@@ -1986,10 +1989,10 @@ p {
 	}
 }
 
-.row .row {
-	margin-left: 0px !important;
-	margin-right: 0px !important;
-}
+// .row .row {
+// 	margin-left: 0px !important;
+// 	margin-right: 0px !important;
+// }
 
 
 
