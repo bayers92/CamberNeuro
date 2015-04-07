@@ -1642,7 +1642,7 @@ p {
    	}
    	a {
    		color: $white;
-   		border-bottom: solid thin white;
+   		// border-bottom: solid thin white;
    		&:hover{
    			color: $my_green;
    		}
@@ -1844,6 +1844,8 @@ p {
 	}
 	.row#big-three {
 		background-color: $smoke;
+		margin-left: none !important !important;
+		margin-right: none !important !important;
 	}
 }
 
@@ -2010,6 +2012,11 @@ p {
 // --------------------------------------------------------------------------------
 // -------------------------------------------------------------------------------- MOBILE STYLING!!
 @media #{$small-only} {
+
+	.row .row {
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
 	h1 {
 		font-size: 95% !important;
 	}
@@ -2129,6 +2136,9 @@ p {
 		}
 	}
 }
+
+
+
 
 // .hideme
 // {
