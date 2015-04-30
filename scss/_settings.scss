@@ -1636,6 +1636,7 @@ p {
    .footer-section {
    	background: $primary-color;
    	min-height: 50px;
+   	padding-top: 30px;
    	p {
    		color: #fff;
    		margin-top: 10px;
@@ -2137,7 +2138,14 @@ p {
 	}
 }
 
-
+#info {
+	p {
+		margin-bottom: 0px !important;
+	}
+	h4 {
+		padding-bottom: 20px !important;
+	}
+}
 
 
 // .hideme
