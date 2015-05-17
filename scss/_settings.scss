@@ -1636,7 +1636,8 @@ p {
    .footer-section {
    	background: $primary-color;
    	min-height: 50px;
-   	padding-top: 30px;
+   	// padding-top: 30px;
+   	margin-top: 30px;
    	p {
    		color: #fff;
    		margin-top: 10px;
