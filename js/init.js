@@ -8,7 +8,7 @@ jQuery(document).ready(function($){
 
 		if (scroll >= 50) {
 
-			$('#logo-image').attr('src', 'img/Camber_Logo_small.png')
+			$('#logo-image').attr('src', 'img/WavoDyne_Logo_small.png')
 
 			$(".important-class").addClass("padding-on-my-header");
 
@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 
 			$(".important-class").removeClass("padding-on-my-header");
 
-			$('#logo-image').attr('src', 'img/Camber_Logo.png')
+			$('#logo-image').attr('src', 'img/WavoDyne_Logo.jpg')
 
 		}
 
